@@ -20,7 +20,8 @@ The main functionalities are encapsulated in the script.
 ### 1) Data Preparation
 Load your data into a Pandas DataFrame.  
 The data should be preprocessed according to the model requirements.  
-The data should include results from at least one specimen taken at different time points, and should be organized in the following order: current and previous  
+The data should include results from at least one specimen taken at different time points, and should be organized in the following order:   
+current and previous  
 
 ![image](https://github.com/user-attachments/assets/fa9bd2ee-c85d-411b-a214-0f3911f29445)  
 example of data format
