@@ -7,3 +7,5 @@ optuna>=3.6.1
 xgboost>=2.0.3
 scipy>=1.13.0
 matplotlib>=3.8.4
+tqdm
+joblib
