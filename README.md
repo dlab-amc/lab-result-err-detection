@@ -10,11 +10,9 @@ link
 ## Requirements
 Before running this project, install the required libraries as listed in requirements.txt. You can install these using pip:
 
-<pre>
-<code>
+```python
 pip install -r requirements.txt
-</code>
-</pre>
+```
 
 ## Usage
 The main functionalities are encapsulated in the script modeling_script.py. Here's how to run the models:
@@ -30,7 +28,7 @@ The data should be preprocessed according to the model requirements.
 - Use the nested_train_model function to perform model training with hyperparameter optimization.
 - Evaluate the model using the predict_score function to get performance metrics.
 
-```bash
+```python
 study_all, x_train_all, x_test_all = [],[],[]
 # Select model : 'dnn', 'xgb', 'rf', 'lr'
 model_str = 'xgb'
