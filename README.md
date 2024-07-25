@@ -1,6 +1,7 @@
 # Machine learning-based sample misidentification error detection in clinical laboratory tests
 
-link
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12821626.svg)](https://doi.org/10.5281/zenodo.12821626)
+
 
 ## Features
 - Error Detection: AI based specific functions to predict and evaluate errors in lab results.
