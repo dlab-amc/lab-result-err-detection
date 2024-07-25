@@ -12,6 +12,7 @@ Before running this project, install the required libraries as listed in require
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Usage
 The main functionalities are encapsulated in the script modeling_script.py. Here's how to run the models:
@@ -42,3 +43,4 @@ x_train_all, x_test_all = gen_dbset(db, 'xgb' , n_splits=5)
 
 # Train and optimize model 
 study_all, best_models = nested_train_model(x_train_all, model_str, n_trials =100, shuffle_ratio = shuffle_ratio)
+```
