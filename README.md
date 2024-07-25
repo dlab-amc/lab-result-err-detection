@@ -10,9 +10,11 @@ link
 ## Requirements
 Before running this project, install the required libraries as listed in requirements.txt. You can install these using pip:
 
-```bash
+<pre>
+<code>
 pip install -r requirements.txt
-```
+</code>
+</pre>
 
 ## Usage
 The main functionalities are encapsulated in the script modeling_script.py. Here's how to run the models:
