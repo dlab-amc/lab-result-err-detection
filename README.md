@@ -66,6 +66,21 @@ for name, score in zip(metrics_names, avg_scores):
 ```
 
 ### 4) For External and Internal Validation
-There are two ways to validate the performance of external data.
+To verify the performance of external data, two things are done as follows:  
+1. External validation of internally developed models
+   - use only test set of external validation dataset
+2. Model development and validation on external data (=optimal performance model for external data)
+
+```python
+# Generate exteranl validation dataset
+external_x_train_all, external_x_test_all = gen_dbset(external_db, n_splits=5)
+
+# 1. external validation (use internally developed model)
+result_all=nested_evaluate_model(external_x_test_all, best_models, model_str, n_iter = 1000, test_shuffle_ratio=shuffle_ratio)
+
+# 2. Optimal performance model for external data
+study_all, best_models = nested_train_model(external_x_train_all, model_str, n_trials =100, shuffle_ratio = shuffle_ratio)
+result_all=nested_evaluate_model(external_x_test_all, best_models, model_str, n_iter = 1000, test_shuffle_ratio=shuffle_ratio)
+```
 
 
