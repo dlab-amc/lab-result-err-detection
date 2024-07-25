@@ -9,3 +9,5 @@ scipy>=1.13.0
 matplotlib>=3.8.4
 tqdm
 joblib
+smote
+
