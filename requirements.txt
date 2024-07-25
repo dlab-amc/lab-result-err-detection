@@ -1,1 +1,9 @@
-tmp
+numpy>=1.26.4
+pandas>=2.2.2
+scikit-learn>=1.2.2
+tensorflow
+keras>=2.10.0
+optuna>=3.6.1
+xgboost>=2.0.3
+scipy>=1.13.0
+matplotlib>=3.8.4
